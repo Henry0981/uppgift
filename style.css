@@ -1,0 +1,151 @@
+body {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    background-color: rgba(232, 226, 226, 0.837);
+}
+nav,
+.header-img {
+    display: grid;
+    grid-auto-flow: column;
+    place-items: center;
+}
+header {
+    text-align: left;
+    background-color: rgb(240, 240, 240);
+    color: rgb(200, 58, 22);
+}
+main {
+    display: grid;
+    place-items: center;
+}
+.three-col-layout {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 4fr 7fr 4fr;
+    place-items: center;
+}
+.header-top {
+    display: flex;
+    justify-content: space-between;
+}
+.header-img {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.header-img img {
+    width: 40%;
+    place-self: end;
+}
+a {
+    text-decoration: none;
+    color: black;
+    background-color: rgba(128, 128, 128, 0.115);
+}
+footer {
+    height: 60px;
+    text-align: center;
+    background-color: rgb(240, 240, 240);
+    color: rgb(200, 22, 22);
+    margin-top: 25px;
+}
+.idk-man 
+{
+   grid: 50px;    
+   grid-template-columns:  80px, 70px ;
+}
+.MenyKnapp {
+    width: 125px;
+    Height: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: transparent;
+   /* border: 2px solid black; */
+}
+.MenyKnapp:hover{
+    display:block;
+    background-color: rgba(200, 22, 22, 0.493);
+}
+h1 {
+    border: 5px solid rgb(200, 22, 22);
+    padding: 2px;
+}
+.SpelRutor {
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.Spel1 {
+    width: 300px;
+    height: 400px;
+    margin-left: -25px;
+    margin-right: 25px;
+   background-image: url(static.jpg);
+   background-size: cover ;
+   cursor: pointer;
+   border-radius: 10px;
+ box-shadow: 0 10px -5px #ccc;
+}
+.Spel1:hover
+{
+    background-image: url(animated.gif);
+
+}
+
+.Spel2 {
+    width: 300px;
+    height: 400px;
+
+    margin-left: 350px;
+    margin-top: -400px;
+}
+.Spel3 {
+    width: 300px;
+    height: 400px;
+
+    margin-left: 730px;
+    margin-top: -400px;
+}
+.Spelbild {
+    width: 300px;
+    height: 300px;
+}
+.SpelB {
+    width: 295px;
+    height: 100px;
+    border: 2px solid black;
+    margin-bottom: 25px; 
+}
+.Kommentarer {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.K1, .K2, .K3 {
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 16px;
+    padding: 5px;
+    width: 800px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+.namn {
+    margin-bottom: -20px;
+}
+.Namn {
+    text-decoration: bold;
+    background-color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.ProfilBild {
+    height: 75px;
+    width: 75px;
+    margin-top: 25px;
+}
+.KR {
+    border: 1.5px solid black;
+    padding: 5px;
+    height: 65px;
+    width: 675px;
+    margin-left: 100px;
+    margin-top: -80px;
+}
